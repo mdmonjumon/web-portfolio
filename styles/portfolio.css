@@ -44,7 +44,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 150px;
 }
 
 .nav-title {
@@ -81,7 +81,7 @@ nav li a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 10px 0px 200px;
+    padding: 50px 10px 0px 150px;
 }
 
 .banner-grating {
