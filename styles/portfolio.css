@@ -110,10 +110,124 @@ nav li a {
 
 /* about section styles */
 
+.about-section {
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    padding: 130px;
+    margin: 130px 0px;
+}
+
+.about-container {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    padding: 20px;
+
+}
+
 .about-description {
     color: rgb(117, 117, 117);
     font-size: 18px;
     font-weight: 400;
     text-align: center;
     margin: 30px 0px;
+    line-height: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-title {
+    text-align: center;
+    color: #757575;
+}
+
+.info-description {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #474747;
+}
+
+/* what i do styles */
+
+.i-do-description {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.language-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 30px 0px 150px;
+}
+
+.language-container>div {
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.language-title {
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.language-description {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 200px;
+}
+
+/* My Resume style */
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.resume-title {
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.resume-info-title {
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-container h4 {
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-container p {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.btn-resume{
+    text-align: center;
+    margin-top: 60px;
 }
