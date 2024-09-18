@@ -265,6 +265,11 @@ footer {
     line-height: 28px;
 }
 
+.icon-container img{
+    margin-right: 20px;
+
+}
+
 .contact input[type="text"],
 .contact input[type="email"],
 textarea {
